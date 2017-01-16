@@ -1,0 +1,18 @@
+#graph {
+    position: relative;
+    list-style-type: none;
+    border: 2px solid #222;
+    background: #111;
+}
+
+.graph_item {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.centroid {
+    border: 3px solid #0000ff;
+}
+
+.point {
+}

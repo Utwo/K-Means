@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>KMeans</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container text-center">
+                    <h1>K-Means</h1>
+                    <hr>
+                    <h3 class="lead">Method of vector quantization</h3>
+                </div>
+            </div>
+            <div class="card mt-1">
+                <div class="card-block text-nowrap">
+                    <!--<div class="form-group">
+                        <label for="clusters">Clusters</label>
+                        <input id="clusters" class="form-control" type="number" name="cluster" value="3" placeholder="3">
+                    </div>
+                    <div class="form-group">
+                        <label for="points">Points</label>
+                        <input id="points" class="form-control" type="number" name="points" value="27" placeholder="27">
+                    </div>-->
+                    <h4 class="card-title">Iteration <span id="iteration" class="badge badge-primary">0</span></h4>
+                    <button id="next" class="btn btn-primary btn-block ">Next step</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="my-3">
+                <ul id="graph" class="m-auto pa-o"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+<script type="text/babel" data-presets="es2015,stage-2" src="Cluster.js"></script>
+<script type="text/babel" data-presets="es2015,stage-2" src="Point.js"></script>
+<script type="text/babel" data-presets="es2015,stage-2" src="KMeans.js"></script>
+<script type="text/babel" data-presets="es2015,stage-2" src="index.js"></script>
+</body>
+</html>
