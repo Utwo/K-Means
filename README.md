@@ -9,6 +9,8 @@
 For running this project, just download the repo and open index.html in your browser.
 No npm install needed, no node involved.
 
+This project make use of bootstrap from CDN for theming and babel-standalone CDN for transpiling javascript es6 to es5.
+
 ### Config
 Check out index.js for configuration variables.
 
